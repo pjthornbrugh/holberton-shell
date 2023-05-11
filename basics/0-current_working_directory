@@ -1,3 +1,3 @@
 #!/bin/bash
-wc -l file counts the words, newlines, or bytes of each input file, and outputs the result and #!/bin/bash is the most common shell used as default shell for user login of the linux system.
+The other script counts the words, newlines, or bytes of each input file, and outputs the result and #!/bin/bash is the most common shell used as default shell for user login of the linux system.
 
