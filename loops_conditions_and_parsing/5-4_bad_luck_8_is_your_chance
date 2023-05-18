@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This script is writing loops from 1 to 10 while using the if, elif, else statements
+loop4=0
+while [ $loop4 -ne 11 ]
+do
+	if [ $loop4 -eq 4 ]; then
+	echo "bad luck"
+	elif [ $loop4 -eq 8 ]; then 
+	echo "good luck"
+	else
+	echo "Best School"
+fi
+((loop4++ ))
+done 
