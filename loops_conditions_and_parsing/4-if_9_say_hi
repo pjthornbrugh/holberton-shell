@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #This script displays Best School 10 times, but for the 9th iterations it displays Best School and Hi
 init4=0
-while [ $init4 -ne 12 ]
+while [ $init4 -ne 11 ]
 do
-	if [ $init4 -eq 10 ]; then
+	if [ $init4 -eq 9 ]; then
         echo "Hi"
 	else
 	echo "Best School"
