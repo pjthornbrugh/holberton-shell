@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #This script displays Best School 10 times, but for the 9th iterations it displays Best School and Hi
 x=0
-while [ $x -lt 10 ]
+while [ $x -lt 11 ]
 do
         echo "Best School"
-if [[ $x = 9]]
+if [[ $x = 10]]
 then
-        echo "Best School" $/n "Hi"
+        echo "Hi"
 fi
 done
