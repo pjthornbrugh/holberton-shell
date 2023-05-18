@@ -3,7 +3,7 @@
 init4=0
 while [ $init4 -ne 12 ]
 do
-	if [[ $x = 10 ]]; then
+	if [ $init4 -eq 10 ]; then
         echo "Hi"
 	else
 	echo "Best School"
