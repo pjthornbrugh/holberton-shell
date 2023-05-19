@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 #This script displays numbers 1-20 and a message with 4,9,& 17
 loop5=1
 while [ $loop5 -ne 21 ]
