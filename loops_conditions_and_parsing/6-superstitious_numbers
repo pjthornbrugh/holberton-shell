@@ -1,0 +1,18 @@
+#!/user/bin/env bash
+#This script displays numbers 1-20 and a message with 4,9,& 17
+loop5=1
+while [ $loop5 -ne 21 ]
+do 
+	case $loop5 in
+		"4")
+		 	echo "bad luck from China"
+			;;
+
+		"9")
+			echo "bad luck from Japan"
+			;;
+		"17")
+			echo "bad luck from Italy"
+			;;
+		esac
+done	
