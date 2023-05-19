@@ -16,5 +16,8 @@ do
 			echo "$loop5"
 			echo "bad luck from Italy"
 			;;
+		*)
+		echo "$loop5"
 	esac
+	((loop5++ ))
 done	
