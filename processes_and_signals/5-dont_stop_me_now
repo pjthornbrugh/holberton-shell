@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#we stopped our 4-infinity_and_beyond process using ctrl+c in the previous task, there is another way
+#to do it
+kill -9 "$(pgrep -f 4-infinity_and_beyond)"
