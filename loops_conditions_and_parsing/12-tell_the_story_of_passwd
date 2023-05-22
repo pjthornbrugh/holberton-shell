@@ -5,4 +5,4 @@ while IFS=" " read -r USERNAME GROUPID HOME_DIRECTORY COMMAND/SHELL USERID PASSW
 do	
 	echo "The user $USERNAME is part of the $GROUPID gang, lives in $HOME_DIRECTORY and rides $COMMAND/SHELL. $USERID's place is protected by the passcode $PASSWD, more infor about the user here: $USERNAME"
 
-done < /etc/passwd 
+done 
