@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #This script displays numbers 1-100 with requirements
-for num in {1...100}
+num=1
+for ((i=1;i<=100;i++))
 do 
         if (( num % 3 == 0 && num % 5 == 0 ))
         then
