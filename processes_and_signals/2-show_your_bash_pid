@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Building off of the previous script, build off your Bash PID
+ps -afuxe | awk '(NR>1)'
+# shellscheck disable=SC2009
