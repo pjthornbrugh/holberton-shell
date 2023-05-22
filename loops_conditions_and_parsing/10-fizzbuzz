@@ -1,4 +1,4 @@
-i#!/usr/bin/env bash
+#!/usr/bin/env bash
 #This script displays numbers 1-100 with requirements
 for num in {1...100}
 do 
